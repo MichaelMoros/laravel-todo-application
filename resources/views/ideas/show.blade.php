@@ -2,24 +2,15 @@
 @section('main-content')
 <div class="row">
     <div class="col-3">
-        {{-- sidebar left navigation --}}
+        {{-- side navigation --}}
         @include("shared.side-navigation")
     </div>
     <div class="col-6">
-        {{-- conditional alert message --}}
+        {{-- conditional alert box --}}
         @include("shared.alert-success-message")
 
-        {{-- create new idea form --}}
-        @include("shared.create-idea-form")
-        @foreach ($ideas as $idea)
-        <div class="mt-3">
-            @include("shared.dashboard-card")
-        </div>
-        @endforeach
-
-        <div class="mt-3">
-            {{ $ideas->links() }}
-        </div>
+        {{-- Main Content --}}
+        @include("shared.dashboard-card")
     </div>
     <div class="col-3">
         {{-- Search bar --}}
