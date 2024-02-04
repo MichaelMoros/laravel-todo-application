@@ -1,0 +1,35 @@
+<?php
+
+
+return [
+    "dashboard_login_to_share" => "Inicie sesión para compartir sus ideas",
+    "login_text" => "Acceso",
+    "email_text" => "Correo electrónico",
+    "password_text" => "Contraseña",
+    "submit_text" => "Entregar",
+    "register_here_text" => "Registrar aquí",
+    "register_text" => "Registro",
+    "name_text" => "Nombre",
+    "confirm_password_text" => "Confirmar Contraseña",
+    "login_here_text" => "Entre aquí",
+    "no_results_found" => "No se han encontrado resultados.",
+    "admin_dashboard" => "Panel de administración",
+    "logout_text" => "Cerrar sesión",
+    "post_comment" => "Publicar comentario",
+    "no_comments_found_in_idea" => "No se han publicado comentarios sobre esta idea.",
+    "share_your_ideas" => "Comparte tus ideas",
+    "share_text" => "Compartir",
+    "view_text" => "Vista",
+    "edit_text" => "Editar",
+    "cancel_edit" => "Cancelar Editar",
+    "update_text" => "Actualizar",
+    "search_text" => "Buscar",
+    "top_users" => "Usuarios destacados",
+    "no_users_to_follow" => "No hay usuarios disponibles a los que seguir",
+    "follow_text" => "Seguir",
+    "unfollow_text" => "Dejar de seguir",
+    "profile_avatar" => "Avatar de perfil",
+    "bio_text" => "Biografía",
+    "update_bio" => "Actualizar biografía",
+    "update_profile" => "Editar perfil"
+];

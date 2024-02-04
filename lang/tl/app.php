@@ -1,0 +1,35 @@
+<?php
+
+
+return [
+    "dashboard_login_to_share" => "Mag-log In para Ibahagi ang Iyong Mga Ideya",
+    "login_text" => "Mag log in",
+    "email_text" => "Email",
+    "password_text" => "Password",
+    "submit_text" => "Ipasa",
+    "register_here_text" => "Magrehistro dito",
+    "register_text" => "Magrehistro",
+    "name_text" => "Pangalan",
+    "confirm_password_text" => "Kumpirmahin ang Password",
+    "login_here_text" => "Mag-login dito",
+    "no_results_found" => "Walang nahanap na resulta.",
+    "admin_dashboard" => "Admin Dashboard",
+    "logout_text" => "Mag-logout",
+    "post_comment" => "Mag-post ng Komento",
+    "no_comments_found_in_idea" => "Walang naka-post na komento sa ideyang ito.",
+    "share_your_ideas" => "Ibahagi ang iyong mga ideya",
+    "share_text" => "Ibahagi",
+    "view_text" => "Tingnan",
+    "edit_text" => "I-edit",
+    "cancel_edit" => "Kanselahin ang Pag-edit",
+    "update_text" => "Update",
+    "search_text" => "Maghanap",
+    "top_users" => "Mga nangungunang gumagamit",
+    "no_users_to_follow" => "Walang magagamit na mga gumagamit na susundin",
+    "follow_text" => "Sundin",
+    "unfollow_text" => "I-unfollow",
+    "profile_avatar" => "Avatar ng Profile",
+    "bio_text" => "Bio",
+    "update_bio" => "I-update ang Bio",
+    "update_profile" => "Ibahin ang profile"
+];

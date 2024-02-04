@@ -8,15 +8,45 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
+                @guest
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/login">Login</a>
+                    <a class="{{ (Route::is('login')) ? 'active' : '' }} nav-link " aria-current="page"
+                        href='{{ route("login")}}'>{{ __("app.login_text")}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/register">Register</a>
+                    <a class="{{ (Route::is('register')) ? 'active' : '' }} nav-link" href='{{ route("register")}}'>{{
+                        __("app.register_text")}}</a>
+                </li>
+                @endguest
+                @auth
+                @if (!Auth::user()->is_admin)
+                <li class="nav-item">
+                    <a class="{{ (Route::is('profile')) ? 'active' : '' }} nav-link" href="{{ route('profile')}}">{{
+                        Auth::user()->name }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/profile">Profile</a>
+                    <form action='{{ route("logout") }}' method="POST">
+                        @csrf
+                        <input class="btn btn-danger btn-sm" type="submit" value="Logout">
+                    </form>
                 </li>
+                @else
+                <li class="nav-item">
+                    <a class="{{ (Route::is('admin.dashboard')) ? 'active' : '' }} nav-link"
+                        href="{{ route('admin.dashboard')}}">{{__("app.admin_dashboard")}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="{{ (Route::is('profile')) ? 'active' : '' }} nav-link" href="{{ route('profile')}}">{{
+                        Auth::user()->name }}</a>
+                </li>
+                <li class="nav-item">
+                    <form action='{{ route("logout") }}' method="POST">
+                        @csrf
+                        <input class="btn btn-danger btn-sm" type="submit" value={{__("app.logout_text")}}>
+                    </form>
+                </li>
+                @endif
+                @endauth
             </ul>
         </div>
     </div>

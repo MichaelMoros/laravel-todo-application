@@ -1,0 +1,35 @@
+<?php
+
+
+return [
+    "dashboard_login_to_share" => "Log In to Share Your Ideas",
+    "login_text" => "Log In",
+    "email_text" => "Email",
+    "password_text" => "Password",
+    "submit_text" => "Submit",
+    "register_here_text" => "Register here",
+    "register_text" => "Register",
+    "name_text" => "Name",
+    "confirm_password_text" => "Confirm Password",
+    "login_here_text" => "Login here",
+    "no_results_found" => "No results found.",
+    "admin_dashboard" => "Admin Dashboard",
+    "logout_text" => "Logout",
+    "post_comment" => "Post Comment",
+    "no_comments_found_in_idea" => "No comments posted on this idea.",
+    "share_your_ideas" => "Share you ideas",
+    "share_text" => "Share",
+    "view_text" => "View",
+    "edit_text" => "Edit",
+    "cancel_edit" => "Cancel Edit",
+    "update_text" => "Update",
+    "search_text" => "Search",
+    "top_users" => "Top Users",
+    "no_users_to_follow" => "No available users to follow",
+    "follow_text" => "Follow",
+    "unfollow_text" => "Unfollow",
+    "profile_avatar" => "Profile Avatar",
+    "bio_text" => "Bio",
+    "update_bio" => "Update Bio",
+    "update_profile" => "Update Profile"
+];
